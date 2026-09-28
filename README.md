@@ -1,58 +1,37 @@
-# Travel with StreetForge
+# TRAVEL WITH STREETFORGE
 
-> **Discover. Shape. Go.**
+![Cinematic hero](https://capsule-render.vercel.app/api?type=rect&color=0:0B0B0B,100:20201E&height=230&text=TRAVEL%20WITH%20STREETFORGE&fontColor=F3F3EE&fontSize=40&fontAlignY=38&desc=DISCOVERY%20%2F%20PLANNING%20%2F%20BUDGET&descColor=999991&descSize=12&descAlignY=66&animation=fadeIn)
 
-Travel with StreetForge is a browser-based travel-planning MVP that takes a user from destination discovery to itinerary assembly and a simple trip-budget estimate.
+> **DISCOVERY / PLANNING / BUDGET.**
 
-The current build is intentionally dependency-free so it can be hosted as a static site without API keys.
+## THE PREMISE
 
-## Product surface
+Travel with StreetForge is a product-shaped trip planner: discover a destination, filter by travel mood, add it to a route, adjust the number of days and turn the plan into a shareable brief.
 
-- Curated destination discovery
-- Search by destination, region or travel theme
-- Theme filters
-- Add/remove destinations from an itinerary
-- Automatic planned-day calculation
-- Adjustable trip length from 1–14 days
-- Base budget estimation from planning data
-- Copyable trip brief
-- Responsive desktop/mobile interface
-- StreetForge product identity
-- No account or backend required
+## THE EXPERIENCE
 
-## Architecture
+**Travel with StreetForge is a product-shaped trip planner: discover a destination, filter by travel mood, add it to a route, adjust the number of days and turn the plan into a shareable brief.**
 
-- `index.html` — product shell and SEO/social metadata
-- `style.css` — visual system and responsive layout
-- `app.js` — destination catalogue, filtering, itinerary state and budget logic
-- `favicon.svg` — project mark
+## THE SYSTEM
 
-The current destination catalogue is embedded demo data. A production data layer can later connect maps, transport, accommodation, weather and places APIs behind isolated service adapters.
+Discovery should lead somewhere. | An itinerary is a decision, not a list. | Budgeting belongs inside the planning loop.
 
-## Run locally
+## THE STACK
+
+A dependency-free browser implementation keeps the catalogue and planning logic local. The current data layer is explicit demo data, leaving a clean seam for maps, transport, weather and accommodation APIs later.
+
+## RUN
 
 ```bash
-git clone https://github.com/Kishordiu/TravelwithSF.git
-cd TravelwithSF
-python -m http.server 8000
+Functional trip-planning MVP
 ```
 
-Open `http://localhost:8000`.
+## PROJECT STATE
 
-## Product roadmap
+**HTML · CSS · JavaScript**
 
-- Live map and route planning
-- Transport and accommodation integrations
-- Weather-aware itinerary planning
-- Collaborative shared trips
-- AI-assisted trip recommendations
-- Saved trips and accounts
-- Calendar and PDF export
+This README intentionally distinguishes implemented behaviour from future integrations so the project can evolve without overstating what exists today.
 
-## Status
+---
 
-**Major project · Functional trip-planning MVP**
-
-Built and maintained by **K. Kishor Kumar**.
-
-[GitHub @Kishordiu](https://github.com/Kishordiu)
+<p align="center"><strong>K. KISHOR KUMAR</strong><br><sub>ENGINEERING / PRODUCT / SYSTEMS</sub></p>
