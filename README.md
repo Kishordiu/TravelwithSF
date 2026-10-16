@@ -22,9 +22,15 @@ A dependency-free browser implementation keeps the catalogue and planning logic 
 
 ## RUN
 
+This is a static HTML/CSS/JavaScript project; no package installation is required.
+
+From the repository root:
+
 ```bash
-Functional trip-planning MVP
+python -m http.server 8000
 ```
+
+Open [http://localhost:8000](http://localhost:8000), or open `index.html` directly for a quick preview.
 
 ## PROJECT STATE
 
