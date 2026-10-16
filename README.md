@@ -22,15 +22,15 @@ A dependency-free browser implementation keeps the catalogue and planning logic 
 
 ## RUN
 
-This is a static HTML/CSS/JavaScript project; no package installation is required.
+This is a static HTML, CSS and JavaScript project; no package installation is required.
 
-From the repository root:
+Open `index.html` directly, or serve the repository root:
 
 ```bash
 python -m http.server 8000
 ```
 
-Open [http://localhost:8000](http://localhost:8000), or open `index.html` directly for a quick preview.
+Then open `http://localhost:8000`. A static web server can be used if Python is unavailable.
 
 ## PROJECT STATE
 
