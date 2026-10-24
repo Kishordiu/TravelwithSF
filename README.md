@@ -2,42 +2,51 @@
 
 # TRAVEL WITH STREETFORGE
 
-> **DISCOVERY / PLANNING / BUDGET.**
+**A browser-based trip planner for turning destination ideas into a simple, editable itinerary.**
 
-## THE PREMISE
+Travel with StreetForge gives a visitor a place to explore a destination catalogue, filter by travel mood, add places to a route, adjust trip duration, and create a shareable planning brief. The current data layer uses explicit demo content rather than live tourism, transport, weather, or accommodation feeds.
 
-Travel with StreetForge is a product-shaped trip planner: discover a destination, filter by travel mood, add it to a route, adjust the number of days and turn the plan into a shareable brief.
+## The planning loop
 
-## THE EXPERIENCE
+```text
+Explore the catalogue
+        │
+        ▼
+Filter by travel mood
+        │
+        ▼
+Choose destinations
+        │
+        ▼
+Shape the route + trip length
+        │
+        ▼
+Review / share the itinerary brief
+```
 
-**Travel with StreetForge is a product-shaped trip planner: discover a destination, filter by travel mood, add it to a route, adjust the number of days and turn the plan into a shareable brief.**
+## Design principles
 
-## THE SYSTEM
+- **Discovery should lead somewhere.** A destination is a starting point for a plan, not just a card.
+- **The itinerary stays editable.** The visitor can shape the route and trip duration.
+- **Budget belongs in the planning loop.** Cost context should help a traveller compare options, not appear as a detached afterthought.
+- **Demo data stays visible as demo data.** Real-world availability and prices require reliable data providers.
 
-Discovery should lead somewhere. | An itinerary is a decision, not a list. | Budgeting belongs inside the planning loop.
+## Run locally
 
-## THE STACK
-
-A dependency-free browser implementation keeps the catalogue and planning logic local. The current data layer is explicit demo data, leaving a clean seam for maps, transport, weather and accommodation APIs later.
-
-## RUN
-
-This is a static HTML, CSS and JavaScript project; no package installation is required.
-
-Open `index.html` directly, or serve the repository root:
+This is a static HTML, CSS, and JavaScript project; no package installation is required.
 
 ```bash
+git clone https://github.com/Kishordiu/TravelwithSF.git
+cd TravelwithSF
 python -m http.server 8000
 ```
 
-Then open `http://localhost:8000`. A static web server can be used if Python is unavailable.
+Open [http://localhost:8000](http://localhost:8000).
 
-## PROJECT STATE
+## Current scope
 
-**HTML · CSS · JavaScript**
-
-This README intentionally distinguishes implemented behaviour from future integrations so the project can evolve without overstating what exists today.
+This repository does not guarantee live hotel availability, transport schedules, weather forecasts, booking, or verified real-time prices. Check destination requirements and all travel arrangements with authoritative providers before making or paying for plans.
 
 ---
 
-<p align="center"><strong>K. KISHOR KUMAR</strong><br><sub>ENGINEERING / PRODUCT / SYSTEMS</sub></p>
+<p align="center"><sub>DIU FOUNDRY · TRAVEL EXPERIENCE / PRODUCT DESIGN</sub></p>
