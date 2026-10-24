@@ -1,6 +1,4 @@
-# TRAVEL WITH STREETFORGE
-
-![Cinematic hero](https://capsule-render.vercel.app/api?type=rect&color=0:0B0B0B,100:20201E&height=230&text=TRAVEL%20WITH%20STREETFORGE&fontColor=F3F3EE&fontSize=40&fontAlignY=38&desc=DISCOVERY%20%2F%20PLANNING%20%2F%20BUDGET&descColor=999991&descSize=12&descAlignY=66&animation=fadeIn)
+![TRAVEL WITH STREETFORGE — bespoke brushed-metal project artwork](./assets/readme-metal-hero.svg)
 
 > **DISCOVERY / PLANNING / BUDGET.**
 
